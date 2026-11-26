@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Importing database
-metadata = pd.read_csv('movies_metadata.csv', low_memory=False)
+metadata = pd.read_csv('../movies_metadata.csv', low_memory=False)
 
 def weighted_rating(x):
     v = x['vote_count']
